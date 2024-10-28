@@ -1,0 +1,30 @@
+:root {
+  --primary-background: #dee0e5;
+  --primary-white: #ffffff;
+  --primary-black: #01020a;
+  --primary-orange: #e88b16;
+  --primary-lightGray: #cccccc;
+  --primary-darkGray: #666;
+  --primary-green: #65ce91;
+  --primary-red: #f05252;
+  --primary-blue: #6b9efc;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+@media screen and (max-width: 1000px) {
+  html,
+  body {
+    height: auto;
+  }
+}
